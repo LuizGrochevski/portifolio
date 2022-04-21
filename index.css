@@ -1,12 +1,12 @@
 body {
     color: white;
-    background-color: #0e0000;
+    background-color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
 }
 
-nav li{
-    background-color: #670f22;
+nav li {
+    background-color: #161616;
     border-radius: 15px;
     width: 150px;
     text-align: center;
@@ -27,8 +27,13 @@ header {
 }
 
 a {
-    color: white;
+    color: #8C002E;
+    font-size: 20px;
     text-decoration: none;
+}
+
+section p {
+    text-align: center;
 }
 
 
@@ -37,26 +42,48 @@ footer {
     text-align: center;
 }
 
-.center {
+header {
     text-align: center;
+    height: 350px;
+    background-color: #161616;
+    border: 1px solid #8C002E;
 }
 
 header img {
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
-    border: 8px solid #551120;
+    height: 155px;
+    width: 155px;
+    border: 8px solid #8C002E;
+    margin-top: 10px;
     text-align: center;
 }
 
 h1 {
-    color: #9a0505;
+    color: #8C002E;
     text-align: center;
 }
 
 h2 {
-    color: #9a0505;
+    color: #8C002E;
     text-align: center;
+    font-size: 25px;
+}
+
+h3 {
+    color: #8C002E;
+
+}
+
+main section {
+    background-color: #161616;
+    border-radius: 8px;
+}
+
+section p {
+    font-size: 18px;
+    margin: 20px;
+    background-color: #161616;
+    border-radius: 15px;
 }
 
 footer img {
@@ -65,11 +92,13 @@ footer img {
 }
 
 footer {
-    height: 80px;
     border-radius: 15px;
     display: flex;
     justify-content: center;
-    background-color: #670f22
+    background-color: #161616;
+    height: 80px;
+    text-align: center;
+    margin: auto;
 }
 
 footer a {
@@ -86,5 +115,5 @@ footer p {
 }
 
 nav a:hover {
-    color: #bd052d;
+    color: #ED145B;
 }
