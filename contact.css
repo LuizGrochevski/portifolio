@@ -21,7 +21,7 @@ body {
 .card{
     position: relative;
     width: 100%;
-    height: 300px;
+    height: 250px;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -30,7 +30,7 @@ body {
 
 .card .circle{
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 0;
     width: 100%;
     height: 100%;
@@ -51,7 +51,7 @@ body {
 }
 
 .card:hover .circle:before{
-    clip-path: circle(500px at center);
+    clip-path: circle(300px at center);
     background: #100;
 }
 
@@ -72,7 +72,7 @@ body {
 
 .card .content {
     position: relative;
-    height: 250px;
+    height: 150px;
     left: 20%;
     padding: 20px 20px 20px 40px;
     transition: 0.5s;
@@ -81,13 +81,13 @@ body {
 }
 
 .card:hover .content {
-    left: 0;
+    left: 20px;
     opacity: 1;
     visibility: visible;
 }
 
-.card .content h2{
-    color: #fff;
+.card .content h1{
+    color: #8C002E;
     text-transform: uppercase;
     font-size: 2em;
     line-height: 1em;
@@ -105,7 +105,7 @@ body {
     border-radius: 10px;
     background: #fff;
     color: #111;
-    margin-top: 20px;
+    margin-top: 10px;
     display: inline-block;
     text-decoration: none;
     font-weight: 7000;
@@ -169,15 +169,6 @@ a {
     text-decoration: none;
 }
 
-section p {
-    text-align: center;
-}
-
-footer {
-    height: 50px;
-    text-align: center;
-}
-
 header {
     background-color: #161616;
     border: 1px solid #8C002E;
@@ -192,48 +183,3 @@ header img {
     margin-top: 10px;
     text-align: center;
 }
-
-
-h1 {
-    color: #8C002E;
-}
-
-h3 {
-    color: #8C002E;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-main section {
-    background-color: #161616;
-    border: 1px solid #8C002E;
-    border-radius: 15px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
-
-section p {
-    margin: 20px;
-}
-
-footer img {
-    width: 35px;
-    height: 35px;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    background-color: #161616;
-    border: 1px solid #8C002E;
-    height: 80px;
-}
-
-footer a {
-    padding: 15px;
-    text-align: center;
-}
-
